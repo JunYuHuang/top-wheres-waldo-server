@@ -2,12 +2,11 @@
 
 - [x] Create the Rails boilerplate app with API only template
 - [ ] Install and configure session package / library dependencies
-- [ ] Configure Active Storage to use local Disk Service for image file hosting
-- [ ] Create the following image files in `/storage`:
-  - [ ] `photo_1.png` (image of the Where's Waldo map photo)
-  - [ ] `object_waldo.png` (image of the character Waldo)
-  - [ ] `object_wenda.png` (image of the character Wenda)
-  - [ ] `object_woof.png` (image of the character Woof)
+- [x] Create the following image files in `/storage`:
+  - [x] `photo_1.png` (image of the Where's Waldo map photo)
+  - [x] `object_waldo.png` (image of the character Waldo)
+  - [x] `object_wenda.png` (image of the character Wenda)
+  - [x] `object_woof.png` (image of the character Woof)
 - [ ] Create the `Photo` Model
 - [ ] Create the `photos` database migration
 - [ ] Run the `photos` database migration

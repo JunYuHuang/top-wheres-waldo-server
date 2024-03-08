@@ -19,9 +19,11 @@
 - [x] Create the `PhotoObject` Controller
 - [ ] Create the `Game` Controller
 - [ ] Create the `Game` routes
-- [ ] Create the `Score` Model
-- [ ] Create the `scores` database migration
-- [ ] Run the `scores` database migration
-- [ ] Create the `Score` routes
+- [x] Create the `Score` Model
+- [x] Create the `scores` database migration
+- [x] Run the `scores` database migration
+- [x] Create the `Score` routes
 - [ ] Create the `Score` Controller
+  - [x] `#index` handler
+  - [ ] `#create` handler
 - [ ] Create database seed for deployment

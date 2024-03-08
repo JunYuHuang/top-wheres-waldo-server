@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  player_name: MyString
+  start_in_ms: 1
+  end_in_ms: 1
+  photo_id: 1
+
+two:
+  player_name: MyString
+  start_in_ms: 1
+  end_in_ms: 1
+  photo_id: 1

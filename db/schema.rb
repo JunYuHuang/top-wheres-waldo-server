@@ -10,11 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_03_07_234341) do
+ActiveRecord::Schema[7.0].define(version: 2024_03_08_004015) do
+  create_table "photo_objects", force: :cascade do |t|
+    t.string "name"
+    t.string "image_name"
+    t.integer "top_left_x"
+    t.integer "top_left_y"
+    t.integer "bot_right_x"
+    t.integer "bot_right_y"
+    t.integer "photo_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "photos", force: :cascade do |t|
     t.string "image_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "photo_objects", "photos"
 end

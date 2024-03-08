@@ -3,7 +3,7 @@ class PhotosController < ApplicationController
     photo = Photo.find(params[:id])
     response = {
       id: photo.id,
-      imageUrl: "http://#{request.env["HTTP_HOST"]}/#{photo.image_name}"
+      image_url: "http://#{request.env["HTTP_HOST"]}/#{photo.image_name}"
     }
     render json: response
   end

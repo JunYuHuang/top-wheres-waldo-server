@@ -12,11 +12,11 @@
 - [x] Run the `photos` database migration
 - [x] Create the `Photo` routes
 - [x] Create the `Photo` Controller
-- [ ] Create the `Object` Model
-- [ ] Create the `objects` database migration
-- [ ] Run the `objects` database migration
-- [ ] Create the `Object` routes
-- [ ] Create the `Object` Controller
+- [x] Create the `PhotoObject` Model
+- [x] Create the `photo_objects` database migration
+- [x] Run the `photo_objects` database migration
+- [x] Create the `PhotoObject` routes
+- [x] Create the `PhotoObject` Controller
 - [ ] Create the `Game` Controller
 - [ ] Create the `Game` routes
 - [ ] Create the `Score` Model
@@ -24,3 +24,4 @@
 - [ ] Run the `scores` database migration
 - [ ] Create the `Score` routes
 - [ ] Create the `Score` Controller
+- [ ] Create database seed for deployment

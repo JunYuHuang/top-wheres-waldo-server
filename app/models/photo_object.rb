@@ -1,0 +1,2 @@
+class PhotoObject < ApplicationRecord
+end

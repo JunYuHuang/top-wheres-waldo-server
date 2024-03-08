@@ -7,11 +7,11 @@
   - [x] `object_waldo.png` (image of the character Waldo)
   - [x] `object_wenda.png` (image of the character Wenda)
   - [x] `object_woof.png` (image of the character Woof)
-- [ ] Create the `Photo` Model
-- [ ] Create the `photos` database migration
-- [ ] Run the `photos` database migration
-- [ ] Create the `Photo` routes
-- [ ] Create the `Photo` Controller
+- [x] Create the `Photo` Model
+- [x] Create the `photos` database migration
+- [x] Run the `photos` database migration
+- [x] Create the `Photo` routes
+- [x] Create the `Photo` Controller
 - [ ] Create the `Object` Model
 - [ ] Create the `objects` database migration
 - [ ] Run the `objects` database migration

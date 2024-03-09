@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_03_08_173851) do
+ActiveRecord::Schema[7.0].define(version: 2024_03_09_185513) do
   create_table "photo_objects", force: :cascade do |t|
     t.string "name"
     t.string "image_name"
@@ -31,11 +31,10 @@ ActiveRecord::Schema[7.0].define(version: 2024_03_08_173851) do
 
   create_table "scores", force: :cascade do |t|
     t.string "player_name"
-    t.integer "start_in_ms"
-    t.integer "end_in_ms"
     t.integer "photo_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "run_length_in_ms"
   end
 
   add_foreign_key "photo_objects", "photos"

@@ -24,10 +24,19 @@
   - [x] `#destroy` handler
 - [x] Create the `Game` routes
 - [x] Create the `Score` Model
-- [x] Create the `scores` database migration
+- [x] Create `scores` database migration
 - [x] Run the `scores` database migration
 - [x] Create the `Score` routes
-- [ ] Create the `Score` Controller
+- [x] Create the `Score` Controller
   - [x] `#index` handler
-  - [ ] `#create` handler
+  - [x] `#create` handler
+- [ ] Update action controller methods to respond with appropriate HTTP status codes (optional)
+  - [x] `PhotosController#show`
+  - [x] `PhotoObjectsController#show`
+  - [ ] `GamesController#show`
+  - [ ] `GamesController#create`
+  - [ ] `GamesController#update`
+  - [ ] `GamesController#destroy`
+  - [ ] `ScoresController#index`
+  - [ ] `ScoresController#create`
 - [ ] Create database seed for deployment

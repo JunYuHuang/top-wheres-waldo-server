@@ -7,4 +7,6 @@ Rails.application.routes.draw do
     resources :photo_objects, only: [:index]
     resources :scores, only: [:index, :create]
   end
+
+  resources :games, only: [:show, :create, :update, :destroy]
 end

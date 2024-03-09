@@ -23,5 +23,13 @@ module TopWheresWaldoServer
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+
+    # Session config for tracking a player's game state
+    config.session_store :cookie_store, key: '_something_session'
+
+    # Required for all session management
+    config.middleware.use ActionDispatch::Cookies
+    config.middleware.use config.session_store,
+    config.session_options
   end
 end

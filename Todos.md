@@ -1,7 +1,7 @@
 # Todos
 
 - [x] Create the Rails boilerplate app with API only template
-- [ ] Install and configure session package / library dependencies
+- [x] Install and configure session package / library dependencies
 - [x] Create the following image files in `/storage`:
   - [x] `photo_1.png` (image of the Where's Waldo map photo)
   - [x] `object_waldo.png` (image of the character Waldo)
@@ -17,8 +17,12 @@
 - [x] Run the `photo_objects` database migration
 - [x] Create the `PhotoObject` routes
 - [x] Create the `PhotoObject` Controller
-- [ ] Create the `Game` Controller
-- [ ] Create the `Game` routes
+- [x] Create the `Game` Controller
+  - [x] `#show` handler
+  - [x] `#create` handler
+  - [x] `#update` handler
+  - [x] `#destroy` handler
+- [x] Create the `Game` routes
 - [x] Create the `Score` Model
 - [x] Create the `scores` database migration
 - [x] Run the `scores` database migration

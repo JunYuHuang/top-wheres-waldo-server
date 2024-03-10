@@ -1,3 +1,6 @@
 # Where's Waldo Server
 
-TODO
+Links:
+
+- [Specs](./Specs.md)
+- [Todos](./Todos.md)

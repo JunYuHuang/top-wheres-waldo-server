@@ -39,4 +39,5 @@
   - [ ] `GamesController#destroy`
   - [ ] `ScoresController#index`
   - [ ] `ScoresController#create`
-- [ ] Create database seed for deployment
+- [x] Create database seed for deployment
+  - [ ] ~~Find out how to reset the primary int `id` field's sequence counter for ALL SQLite database tables~~

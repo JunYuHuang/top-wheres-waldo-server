@@ -354,7 +354,7 @@ Example Request:
 
 ```bash
 # Query Params
-PATCH http://localhost:3000/games/:id
+DELETE http://localhost:3000/games/:id
 ```
 
 Example Response:

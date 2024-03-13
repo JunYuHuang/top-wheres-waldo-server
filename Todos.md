@@ -41,3 +41,9 @@
   - [ ] `ScoresController#create`
 - [x] Create database seed for deployment
   - [ ] ~~Find out how to reset the primary int `id` field's sequence counter for ALL SQLite database tables~~
+- [x] Config CORS to allow for cross domain AJAX calls (e.g. calls from the frontend client hosted separately)
+  - [x] Install gem `rack-cors`
+  - [x] Config `rack-cors` to allow the following origins:
+    - [x] `localhost:5173` (for Vite React app in dev mode)
+    - [x] `localhost:4173` (for Vite React app in prod mode)
+    - [x] URL for when the client app is deployed live on GitHub Pages

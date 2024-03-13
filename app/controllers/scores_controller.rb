@@ -7,7 +7,6 @@ class ScoresController < ApplicationController
     render json: scores
   end
 
-  # TODO - to test
   def create
     unless does_game_session_exist?
       render json: {

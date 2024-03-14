@@ -34,7 +34,9 @@ class GamesController < ApplicationController
       :target_x,
       :target_y,
       :timestamp_in_ms,
-      :did_update_start
+      :did_update_start,
+      :id,
+      game: {}
     )
   end
 end

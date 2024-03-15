@@ -4,7 +4,9 @@ class ScoresController < ApplicationController
       .select(:id, :player_name, :run_length_in_ms)
       .where(photo_id: params[:photo_id])
       .order(run_length_in_ms: :asc)
-    render json: scores
+    return render json: scores if params[:all]
+
+    render json: scores.limit(5)
   end
 
   def create

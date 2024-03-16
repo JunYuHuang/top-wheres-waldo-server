@@ -47,3 +47,5 @@
     - [x] `localhost:5173` (for Vite React app in dev mode)
     - [x] `localhost:4173` (for Vite React app in prod mode)
     - [x] URL for when the client app is deployed live on GitHub Pages
+- [ ] Deploy app to Fly.io
+  - [ ] Make app seed its database seed from `/db/seeds.rb`

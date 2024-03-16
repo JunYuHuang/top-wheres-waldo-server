@@ -41,3 +41,7 @@ pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
 
 # Allow puma to be restarted by `bin/rails restart` command.
 plugin :tmp_restart
+
+# Config for Fly.io deployment
+# - Set Rails' Puma server to listen any IP address on port 3000
+bind 'tcp 0.0.0.0:3000'

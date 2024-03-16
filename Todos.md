@@ -48,6 +48,6 @@
     - [x] `localhost:4173` (for Vite React app in prod mode)
     - [x] URL for when the client app is deployed live on GitHub Pages
 - [ ] Deploy app to Fly.io
-  - [ ] Update `/config/puma.rb` to listen to any IP address on port 3000
-  - [ ] Update all dependent Gem versions in `Gemfile.lock`
+  - [x] Update `/config/puma.rb` to listen to any IP address on port 3000
+  - [x] Update all dependent Gem versions in `Gemfile.lock`
   - [ ] Make app seed its database seed from `/db/seeds.rb`

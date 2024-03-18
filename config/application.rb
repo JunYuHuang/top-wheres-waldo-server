@@ -24,8 +24,14 @@ module TopWheresWaldoServer
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
 
-    # Session config for tracking a player's game state
-    config.session_store :cookie_store, key: '_something_session'
+    # Session & cookie config for tracking a player's game state
+    config.session_store(
+      :cookie_store,
+      key: '_game_session',
+      secure: Rails.env.production?,
+      same_site: :none,
+      httponly: false
+    )
 
     # Required for all session management
     config.middleware.use ActionDispatch::Cookies

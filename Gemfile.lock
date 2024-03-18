@@ -75,6 +75,8 @@ GEM
     debug (1.9.1)
       irb (~> 1.10)
       reline (>= 0.3.8)
+    dockerfile-rails (1.6.6)
+      rails (>= 3.0.0)
     erubi (1.12.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
@@ -108,6 +110,8 @@ GEM
       net-protocol
     nio4r (2.7.0)
     nokogiri (1.16.3-x64-mingw-ucrt)
+      racc (~> 1.4)
+    nokogiri (1.16.3-x86_64-linux)
       racc (~> 1.4)
     psych (5.1.2)
       stringio
@@ -153,6 +157,7 @@ GEM
     reline (0.4.3)
       io-console (~> 0.5)
     sqlite3 (1.7.3-x64-mingw-ucrt)
+    sqlite3 (1.7.3-x86_64-linux)
     stringio (3.1.0)
     thor (1.3.1)
     timeout (0.4.1)
@@ -167,10 +172,12 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
   debug
+  dockerfile-rails (>= 1.6)
   puma (~> 5.0)
   rack-cors
   rails (~> 7.0.8, >= 7.0.8.1)
